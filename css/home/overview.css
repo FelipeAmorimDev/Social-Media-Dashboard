@@ -1,0 +1,42 @@
+.overview{
+  max-width: 1100px;
+  margin: 40px auto 0px;
+  padding: 20px;
+}
+.dados-list{
+  display: grid;
+  
+  grid-template-columns: repeat(4,1fr);
+ 
+
+}
+.header-info{
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.overview > .dados-list{
+  gap: 20px 30px;
+}
+
+.today-info{
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+@media (max-width:1100px){
+  .overview  .dados-list{
+  grid-template-columns: repeat(2,1fr);
+  }
+}
+
+
+@media (max-width:600px){
+  .overview  .dados-list{
+  grid-template-columns: 1fr;
+  }
+}
+

@@ -1,0 +1,63 @@
+/* Inter 700 3.5 1.20 LH
+Inter 700 2.0 1.20 LH
+Inter 700 1.75 1.20 LH
+Inter 700 1.5 1.20 LH
+Inter 700 0.88 1.21 LH
+Inter 700 0.75 1.20 LH */
+
+.font-1-xxl{
+  font-family: 'Inter', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.20;
+  font-weight: 700;
+}
+.ls{
+  letter-spacing: 5px;
+}
+.font-1-xx{
+  font-family: 'Inter', sans-serif;
+  font-size: 2.0rem;
+  line-height: 1.20;
+  font-weight: 700;
+}
+
+.font-1-xl{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.20;
+  font-weight: 700;
+}
+
+.font-1-l{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.20;
+  font-weight: 700;
+}
+
+.font-1-m{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.20;
+  font-weight: 700;
+}
+
+.font-1-s-b{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.20;
+  font-weight: 700;
+}
+
+.font-1-s{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.20;
+  font-weight: 400;
+}
+
+@media (max-width:600px){
+  .font-1-xl{
+  font-size: 1.3rem;
+  }
+}
