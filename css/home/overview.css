@@ -35,8 +35,28 @@
 
 
 @media (max-width:600px){
+  .overview{
+  margin: 0px;
+  }
   .overview  .dados-list{
   grid-template-columns: 1fr;
   }
 }
+
+/* @media (prefers-color-scheme:dark){
+ .overview h2{
+  color: var(--cor-0);
+ }
+
+}
+
+@media (prefers-color-scheme:light){
+  .overview h2{
+    color: var(--cor-12);
+   }
+  .header-info span{
+    color: var(--cor-12);
+  }
+
+} */
 

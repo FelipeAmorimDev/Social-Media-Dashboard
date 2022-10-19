@@ -1,0 +1,53 @@
+.switch-button{
+  position: relative;
+  display: inline-block;
+  width: calc(60px / 1.5);
+  height: calc(34px / 1.5);
+  
+}
+.switch-button input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider{
+  position: absolute;
+  cursor: pointer;
+  background: linear-gradient(225deg, #40DB82 0%, #388FE7 98.02%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: .6s;
+  
+}
+
+.slider::before{
+  position: absolute;
+  left: 3px;
+  bottom: 3px;
+  content: "";
+  width: calc(26px / 1.5);
+  height: calc(26px / 1.5);
+  background-color: var(--cor-4);
+  transition: .6s;
+}
+
+.switch-button input:checked + .slider{
+  background-color: #2196f3;
+}
+
+.switch-button input:focus + .slider{
+  box-shadow: 0 0 1px #2196f3;
+}
+
+.switch-button input:checked + .slider::before{
+  transform: translateX(17px);
+}
+
+.slider.round{
+   border-radius: 35px;
+}
+.slider.round:before{
+  border-radius: 50%;
+}

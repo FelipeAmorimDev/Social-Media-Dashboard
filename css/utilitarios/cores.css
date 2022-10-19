@@ -8,6 +8,14 @@
   --cor-6:#20222F;
   --cor-7:#1D1F29;
   --cor-8:#333a55;
+  --cor-9:#f2f2f2;
+  --cor-10:#f7f9ff;
+  --cor-11:#848BAB;
+  --cor-12:#63687D;
+  --cor-13:#979797;
+  --cor-14:#f1f3fa;
+  --cor-15:#e1e4f0;
+
 }
 
 .cor-0{
@@ -33,4 +41,12 @@
 }
 .cor-7{
   color:var(--cor-7)
+}
+
+.cor-8{
+  color:var(--cor-8)
+}
+
+.cor-9{
+  color:var(--cor-9)
 }
